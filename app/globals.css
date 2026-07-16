@@ -1,4 +1,4 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
 :root {
   --brand-red: #d62828;
@@ -12,6 +12,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -19,6 +20,14 @@ body {
   color: #0f172a;
   background: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
 }
 
 ::selection {
@@ -57,4 +66,10 @@ body {
     radial-gradient(circle at 12% 14%, rgba(214, 40, 40, 0.13), transparent 28%),
     radial-gradient(circle at 86% 10%, rgba(31, 120, 184, 0.16), transparent 32%),
     linear-gradient(135deg, #ffffff 0%, #f6fbff 46%, #fff8f8 100%);
+}
+
+@media (max-width: 380px) {
+  .section-shell {
+    width: min(100% - 24px, 1120px);
+  }
 }

@@ -1,6 +1,7 @@
-import "./globals.css";
+﻿import "./globals.css";
 
 export const metadata = {
+  metadataBase: new URL("https://shivshaktifashion.com"),
   title: "Shiv Shakti Fashion | Surat Fashion Showroom",
   description:
     "Premium kids, men's, ethnic, wedding, festive and party wear showroom in Surat."
