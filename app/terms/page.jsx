@@ -1,4 +1,4 @@
-﻿import LegalPage from "../../components/legal/LegalPage";
+import LegalPage from "../../components/legal/LegalPage";
 
 const title = "Terms & Conditions";
 const description = "Terms and Conditions for Shiv Shakti Fashion website, products, orders, payments, shipping, returns and contact details.";
@@ -118,7 +118,7 @@ const termsContent = {
       paragraphs: ["If you have any questions regarding these Terms & Conditions, please contact us:"],
       table: [
         ["Business", "SHIV SHAKTI FASHION"],
-        ["Email", "shivshaktifashion3@gmail.com"],
+        ["Email", "info@shivshaktifashion.shop, hitesh@shivshaktifashion.shop"],
         ["Phone", "+91 98245 70190"],
         ["Address", "Plot No. 6, Near Nijdham Ashram, Ram Nagar, Rander Road, Surat."]
       ]

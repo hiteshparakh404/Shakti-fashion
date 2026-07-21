@@ -1,4 +1,4 @@
-﻿export default function Contact() {
+export default function Contact() {
   return (
     <section id="contact" className="py-20">
       <div className="section-shell grid gap-8 lg:grid-cols-[1fr_0.9fr] lg:items-stretch">
@@ -39,7 +39,7 @@
             </div>
             <div>
               <dt className="font-black text-[#0d2f57]">Email</dt>
-              <dd className="mt-1 break-words text-slate-600">shivshaktifashion3@gmail.com</dd>
+              <dd className="mt-1 break-words text-slate-600">info@shivshaktifashion.shop, hitesh@shivshaktifashion.shop</dd>
             </div>
             <div>
               <dt className="font-black text-[#0d2f57]">Address</dt>

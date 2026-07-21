@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="min-w-0 text-sm leading-6 text-slate-500 sm:text-right">
           <p className="font-bold text-[#0d2f57]">Shiv Shakti Fashion, Surat.</p>
           <p>Phone: +91 98245 70190</p>
-          <p className="break-words">Email: shivshaktifashion3@gmail.com</p>
+          <p className="break-words">Email: info@shivshaktifashion.shop, hitesh@shivshaktifashion.shop</p>
           <p className="break-words">Address: Plot No. 6, Near Nijdham Ashram, Ram Nagar, Rander Road, Surat.</p>
         </div>
       </div>

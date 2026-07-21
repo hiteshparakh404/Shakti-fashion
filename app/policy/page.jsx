@@ -1,4 +1,4 @@
-﻿import LegalPage from "../../components/legal/LegalPage";
+import LegalPage from "../../components/legal/LegalPage";
 
 const title = "Privacy Policy";
 const description = "Privacy Policy for Shiv Shakti Fashion explaining how customer information is collected, used, stored, protected and shared.";
@@ -111,7 +111,7 @@ const policyContent = {
       paragraphs: ["If you have any questions or concerns regarding this Privacy Policy, please contact us:"],
       table: [
         ["Business", "SHIV SHAKTI FASHION"],
-        ["Email", "shivshaktifashion3@gmail.com"],
+        ["Email", "info@shivshaktifashion.shop, hitesh@shivshaktifashion.shop"],
         ["Phone", "+91 98245 70190"],
         ["Address", "Plot No. 6, Near Nijdham Ashram, Ram Nagar, Rander Road, Surat."]
       ]

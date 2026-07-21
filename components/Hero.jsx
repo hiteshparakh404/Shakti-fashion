@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -20,7 +20,7 @@ const contactItems = [
   {
     icon: Mail,
     label: "Email",
-    value: "shivshaktifashion3@gmail.com"
+    value: "info@shivshaktifashion.shop, hitesh@shivshaktifashion.shop"
   }
 ];
 
@@ -131,9 +131,8 @@ export default function Hero() {
                   loading={index === 0 ? undefined : "lazy"}
                   sizes="(max-width: 1024px) 100vw, 45vw"
                   style={{ objectPosition: image.position }}
-                  className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${
-                    index === activeImage ? "opacity-100" : "opacity-0"
-                  }`}
+                  className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${index === activeImage ? "opacity-100" : "opacity-0"
+                    }`}
                 />
               ))}
             </div>
@@ -160,9 +159,8 @@ export default function Hero() {
                   type="button"
                   onClick={() => setActiveImage(index)}
                   aria-label={`Show image ${index + 1}`}
-                  className={`h-2.5 rounded-full transition-all ${
-                    index === activeImage ? "w-8 bg-[#d62828]" : "w-2.5 bg-[#1f78b8]/30 hover:bg-[#1f78b8]/60"
-                  }`}
+                  className={`h-2.5 rounded-full transition-all ${index === activeImage ? "w-8 bg-[#d62828]" : "w-2.5 bg-[#1f78b8]/30 hover:bg-[#1f78b8]/60"
+                    }`}
                 />
               ))}
             </div>
